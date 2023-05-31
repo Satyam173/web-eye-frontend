@@ -49,3 +49,39 @@ header {
 .logo {
     font-size: 35px;
 }
+.left{
+    float: left;
+    text-align: center;
+    color: azure;
+    font-size: 200%;
+    margin-right: 230px;
+    margin-bottom: 210px;
+}
+.right{
+    float: right;
+    margin-bottom: 140px;
+}
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: aqua;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.btn{
+    margin-top: 45px;
+    padding:15px;
+    font-size: 35px;
+    border-radius: 45%;
+    width: 160px;
+    color: azure;
+    background-color: grey;
+    border: none;
+}
+.sec1{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
