@@ -64,7 +64,7 @@ header {
 .line {
     width: 150px;
     height: 4px;
-    background-color: aqua;
+    background-color: rgb(6, 240, 213);
     margin: 10px auto;
     border-radius: 5px;
 }
@@ -84,4 +84,45 @@ header {
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
+}
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.tittle {
+    text-align: center;
+    font-size: 3.9vmin;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.records .row {
+    margin-top: 50px;
+}
+.btn2{
+    margin-top: 45px;
+    padding:15px;
+    font-size: 35px;
+    border-radius: 45%;
+    width: 180px;
+    color: azure;
+    background-color: grey;
+    border: none;
+    align-content: center;
+    height: 40px;
 }
