@@ -48,6 +48,7 @@ header {
 } 
 .logo {
     font-size: 35px;
+    color: azure;
 }
 .left{
     float: left;
@@ -93,7 +94,8 @@ section {
 
 .tittle {
     text-align: center;
-    font-size: 3.9vmin;
+    font-size: 2.3vmin;
+    color: rgb(241, 50, 88);
 }
 
 .row {
