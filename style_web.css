@@ -19,6 +19,7 @@
     font-family: 'Tilt Prism', cursive;;
 }
 
+
 ul {
     list-style-type: none;
 }
@@ -127,4 +128,18 @@ section {
     border: none;
     align-content: center;
     height: 40px;
+}
+#Logo{
+    color: azure;
+}
+#html{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+.desc{
+  margin-top: 80px;
+  text-align: center;
+  margin-left: 230px;
+  font-size: 20px;
 }
