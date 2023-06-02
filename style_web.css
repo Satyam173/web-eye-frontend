@@ -4,7 +4,7 @@
     overflow-x: hidden;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Ubuntu:ital,wght@1,300&display=swap');
 
 .navbar {
     position: absolute;
@@ -15,8 +15,8 @@
     justify-content: space-between;
     padding: 20px;
     color: whitesmoke;
-    font-family: 'Indie Flower', cursive;
-    font-family: 'Tilt Prism', cursive;;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -71,7 +71,7 @@ header {
     border-radius: 5px;
 }
 
-.btn{
+/* .btn{
     margin-top: 45px;
     padding:15px;
     font-size: 35px;
@@ -80,7 +80,7 @@ header {
     color: azure;
     background-color: grey;
     border: none;
-}
+} */
 .sec1{
     color: red;
     text-align: center;
@@ -153,4 +153,18 @@ footer{
     text-align: center;
     height: 50px;
     padding: 30px 0;
+}
+.btn{
+    background-color: gray;
+    color: #efefef;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 70px;
+    font-size: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.btn:hover{
+  
 }
