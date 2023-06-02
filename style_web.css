@@ -136,6 +136,7 @@ section {
     float: left;
     width: 200px;
     height: auto;
+    transition: 0.5s;
 }
 .desc{
   margin-top: 80px;
@@ -164,7 +165,4 @@ footer{
     font-size: 40px;
     margin-top: 50px;
     transition: 0.5s;
-}
-.btn:hover{
-  
 }
