@@ -165,4 +165,23 @@ footer{
     font-size: 40px;
     margin-top: 50px;
     transition: 0.5s;
+    cursor: pointer;
 }
+.underline-from-center {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .underline-from-center:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transition: 0.2s;
+  }
+  
+  
